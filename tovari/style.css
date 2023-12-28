@@ -1,0 +1,18 @@
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-section div{
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.selected{
+    border: 1px solid red;
+}
